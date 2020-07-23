@@ -1,8 +1,10 @@
 {
 	"name": "img-placeholder",
 	"displayName": "img-placeholder",
-	"description": "Inserts image from placehold.it",
+	"description": "Inserts image from placeholder.com",
 	"version": "0.0.1",
+	"publisher": "maxxcrawford",
+	"author": "Maxx Crawford",
 	"engines": {
 		"vscode": "^1.47.0"
 	},
