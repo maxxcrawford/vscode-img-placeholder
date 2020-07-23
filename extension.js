@@ -41,9 +41,6 @@ function activate(context) {
 			imgSrcText = '<img src="https://placehold.it/600x400/' + colorContrast + '"/>';
 
 			edit.insert(textEditor.selection.active, imgSrcText);
-
-		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from img-placeholder!');
 	});
 
 	context.subscriptions.push(disposable);
