@@ -38,7 +38,7 @@ function activate(context) {
 
 			const colorContrast = randomColor.toUpperCase() + "/" + contrast;
 
-			imgSrcText = '<img src="https://placehold.it/600x400/' + colorContrast + '"/>';
+			imgSrcText = '<img src="https://via.placeholder.com/600x400/' + colorContrast + '"/>';
 
 			edit.insert(textEditor.selection.active, imgSrcText);
 	});
